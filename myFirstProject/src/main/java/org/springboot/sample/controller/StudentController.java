@@ -15,6 +15,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/stu")
+@Api(value = "Student", description = "获取学生数据信息")
 public class StudentController {
 
     private static final Logger logger = LoggerFactory.getLogger(StudentController.class);
